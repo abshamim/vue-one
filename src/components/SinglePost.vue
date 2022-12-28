@@ -1,11 +1,11 @@
 <template>
-    <ul>
+    <!-- <ul>
         <li>
             <div style="display: inline-block;" v-bind:class="{'fav' : post.fav}">{{ post.title }}</div> | 
             <button @click="deletePost(post)">Delete Post</button>
             <button @click="$emit('fav', post)">Fav Post</button>
         </li>
-    </ul>
+    </ul> -->
 </template>
 
 <script>
